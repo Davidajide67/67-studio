@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="product.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    @media (max-width:768px) {
+        .hero{
+            display: block;
+        }
+        .feat{
+            display:block;
+        }
+        #xg{
+            display: block;
+        }
+    }
+</style>
+<body>
+    <div class="container mt-5">
+        <div class="header" data-aos="fade-down">
+            <div class="head">Jeguns</div>
+            <div class="log">
+                <span>
+                    <p>Home</p>
+                </span>
+                <p>ABOUT</p>
+                <p>Products</p>
+                <p>Contact</p>
+            </div>
+        </div>
+    </div>
+    <div class="hero"  data-aos="fade-right">
+        <div class="sect">SHOP AMAZING <br> PRODUCTS</div> <br>
+        <div class="text">Discover the latest trends and best deals on electronics, fashion ,home <br> & garden, and
+            more </div> <br><br><br>
+        <div class="btn"> <button onclick="getProducts()"><i class="bi bi-bag"></i> Shop now</button></div>
+    </div> <br> <br>
+    <div class="feat">
+        <div class="prod">Featured Products</div> <br><br>
+    </div> <br> <br>
+    <div id="xg" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom"></div>
+    </div>
+
+</body>
+<script src="product.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
